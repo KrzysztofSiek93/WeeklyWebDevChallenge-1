@@ -5,22 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly WebDev Challenge-1</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4e9e747863.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Weekly WebDev Challenge-1</h1>
-    </header>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            A harum, doloremque laborum totam nihil enim temporibus 
-            eligendi modi possimus id nisi fuga eaque. Mollitia ut eaque 
-            cupiditate ex consequuntur facere, quod incidunt quisquam neque 
-            perspiciatis cumque minima possimus, veritatis provident nihil et 
-            veniam magnam eveniet error sit expedita fugiat ab! Laudantium dolorum
-        </p>
-    </section>
-    <footer>
-        <p>Author: Krzysztof Siek</p>
-    </footer>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <img src="img/logo_pictures.png" alt="logo pictures">   <i class="fas fa-user"></i>
+                <img src="img/logo_big_www.png" alt="logo big www adres">
+            </div>
+        </header>
+            <div class="forms">
+                <div class="forms__register">
+                    <div class="register-form__title">Register Form</div>
+                    <div class="register-form__username">
+                        <form action="#" class="register-form">
+                            <div class="register-form__username">
+                                 <i class="fas fa-user"></i><input type="text" placeholder="username">
+                            </div>     
+                            <div class="register-form__password">
+                                <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
+                            </div>
+                            <div class="register-form__confirm-password">
+                                <i class="fas fa-lock"></i><input type="password" placeholder="confirm password">
+                            </div>
+                            <div class="register-form__email">
+                                 <i class="fas fa-envelope"></i><input type="email" placeholder="email">
+                            </div>
+                            <div class="register-form__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <select name="" id="">
+                                <option value="option1">polska</option>
+                                <option value="option2">uSA</option>
+                                <option value="option3">uk</option>
+                                <option value="option4">germany</option>
+                                <option value="option5">ireland</option>
+                                </select>
+                            </div>
+                            <div class="register-form__accept-terms">
+                                <div class="check"><input type="checkbox" id="terms">
+                                    <label for="terms" class="text">
+                                        <span class="checkmark"></span> I have read and accept theterms of use.
+                                    </label>
+                                </div>
+                            </div>
+                            <button class="register-form__submit-button" type="submit"> Sign up </button>
+                        </form> 
+                    </div>
+                </div>
+            </div>     
+        <footer>
+            <div class="logo logo--small">
+                <img src="img/logo_pictures.png" alt="logo pictures">
+                <img src="img/logo_small_www.png" alt="logo small www adres">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
