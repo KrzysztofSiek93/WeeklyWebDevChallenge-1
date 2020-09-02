@@ -16,9 +16,9 @@
             </div>
         </header>
             <div class="forms">
+                <!--form register-->
                 <div class="forms__register">
-                    <div class="register-form__title">Register Form</div>
-                    <div class="register-form__username">
+                    <div class="register-form__title">register form</div>
                         <form action="#" class="register-form">
                             <div class="register-form__username">
                                  <i class="fas fa-user"></i><input type="text" placeholder="username">
@@ -36,7 +36,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                                 <select name="" id="">
                                 <option value="option1">polska</option>
-                                <option value="option2">uSA</option>
+                                <option value="option2">usa</option>
                                 <option value="option3">uk</option>
                                 <option value="option4">germany</option>
                                 <option value="option5">ireland</option>
@@ -45,21 +45,88 @@
                             <div class="register-form__accept-terms">
                                 <div class="check"><input type="checkbox" id="terms">
                                     <label for="terms" class="text">
-                                        <span class="checkmark"></span> I have read and accept theterms of use.
+                                        <span class="checkmark"> i have read and accept theterms of use.</span>
                                     </label>
                                 </div>
                             </div>
-                            <button class="register-form__submit-button" type="submit"> Sign up </button>
+                            <button class="register-form__submit-button" type="submit"> sign up </button>
                         </form> 
                     </div>
                 </div>
-            </div>     
+                <!--form send email-->
+                <div class="forms__email">
+                    <div class="email-form__title">send email</div>
+                    <form action="#" class="register-form">
+                    <div class="email-form__username">
+                        <i class="fas fa-user"></i><input type="text" placeholder="your name">
+                   </div>
+                   <div class="register-form__email">
+                        <i class="fas fa-envelope"></i><input type="email" placeholder="your email">
+                   </div>    
+                   <div class="email-form__message">
+                      <textarea class="send-email-form__message" placeholder="Type your message"></textarea>
+                   </div> 
+                   <div class="email-form__accept-terms">
+                    <div class="check"><input type="checkbox" id="terms">
+                        <label for="terms" class="text">
+                            <span class="checkmark">send a copy to my email</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="register-form__submit-button" type="submit"> send email </button>
+                </form>
+                </div>
+                <!--singin in form-->
+                <div class="forms__sign">
+                    <div class="sign-form__title">sign in form</div>
+                    <form action="#" class="sign-form">
+                        <div class="sign-form__username">
+                            <i class="fas fa-user"></i><input type="text" placeholder="username">
+                       </div>     
+                       <div class="sign-form__password">
+                           <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
+                       </div> 
+                       <div class="sign-form__check"><input type="checkbox" id="terms">
+                        <label for="terms" class="text">
+                            <span class="checkmark">remember me</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="register-form__submit-button" type="submit"> sign in</button>   
+                    </form>
+               
+                <!--Recover form-->  
+                <div class="forms__revocer">
+                    <div class="recover-form__title">recover form</div>
+                    <form action="#" class="recover-form">
+                        <div class="recover-form__email">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
+                       </div>   
+                       <div class="recover-form__phone">
+                            <i class="fas fa-mobile-alt"></i><input type="tel" placeholder="enter your phone number">
+                       </div>  
+                       <button class="recover-form__submit-button" type="submit">send</button> 
+                       <button class="recover-form__submit-button no-active-button" type="submit">done</button> 
+                    </form>
+                </div>   
+                <!--Subscibe Form-->   
+                <div class="forms__subscribe">
+                    <div class="subscribe-form__title">subscribe form</div>
+                    <form action="#" class="subscribe-form">
+                        <div class="subscribe-form__email">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
+                       </div>   
+                       <button class="subscribe-form__submit-button" type="submit">subscribe</button> 
+                       <button class="subscribe-form__submit-button no-subscribe" type="submit">no, thanks</button> 
+                    </form>
+                </div>        
         <footer>
             <div class="logo logo--small">
                 <img src="img/logo_pictures.png" alt="logo pictures">
                 <img src="img/logo_small_www.png" alt="logo small www adres">
             </div>
         </footer>
+    </div>
     </div>
 </body>
 </html>
