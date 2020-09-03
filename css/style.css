@@ -1,3 +1,8 @@
+/*font-family: 'Titillium Web', 
+sans-serif;
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +13,77 @@
     background-image: url('../img/background_img.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+ 
+ 
  } 
+
+ .logo img{
+    margin: 25px 10px 25px 10px;
+    opacity: 0.6;
+    width: 25%;
+ }
+
+ .logo .logo-second {
+    width: 60%;
+ } 
+
+.forms{
+  margin: 0 20px 0 20px;
+} 
+
+
+.register-form__title {
+  color: #ffffff;
+  font-family: "Titillium Text 22 L";
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Titillium Web';
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+} 
+
+.forms__register form {
+  margin-bottom:30px ;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.3);   
+}
+
+.register-form__username{
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  color: #afafaf;
+  font-size: 24px;
+  border-radius: 3px;
+
+}
+
+.register-form__username i {
+  padding: 10px 15px 10px 15px;
+}
+
+.register-form__username input {
+  width: 80%;
+  background-color: #f4f4f4;
+  border: none;
+  font-size:24px;
+  text-transform: capitalize;
+  border-left: 1px solid grey;
+  padding-left:10px ;
+  font-family: 'Titillium Web';
+  outline-style:none;
+}
+
+
+
+
+
+
+
