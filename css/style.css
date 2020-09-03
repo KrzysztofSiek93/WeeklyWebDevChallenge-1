@@ -9,13 +9,18 @@ sans-serif;
     box-sizing: border-box;
   }
 
+
 .wrap {
     background-image: url('../img/background_img.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     min-height: 100vh;
+    max-width: 1280px;
+    text-align: center;
  } 
+
+
 
  .logo img{
     margin: 25px 10px 25px 10px;
@@ -29,6 +34,7 @@ sans-serif;
 
 .forms{
   margin: 0 20px 0 20px;
+  max-width:460px;
 } 
 
 
@@ -144,7 +150,8 @@ form {
 }
 
 .lebel-form p{
-  font-size:17px;
+  font-size:15px;
+  margin-left: -10px;
   font-family: 'Titillium Web';
   color: #afafaf;
 }
@@ -190,6 +197,12 @@ textarea {
   color: #afafaf;
 }
 
+.email-form__lebel p {
+  margin-left:-80px;
+}
+
+/*sign button*/
+
 .sign-form__lebel .checkmark {
   margin-top:12px;
 }
@@ -199,8 +212,6 @@ textarea {
   margin-top:12px;
   width: 55%;
 }
-
-/*sign button*/
 
 .sign-form__submit-button {
   background-color: #93d02b;
@@ -251,7 +262,7 @@ textarea {
 }
 
 .subscribe-form__submit-button{
-  background-color: #bcdb97;
+  background-color: #93d02b;
   text-shadow: 1px 1px 0 #51850e;
   color: #ffffff;
   font-family: 'Titillium Web';
@@ -263,7 +274,6 @@ textarea {
   cursor: pointer;
   outline-style:none;
   width: 48%;
-  float: right;
 }
 
 .red-button{
@@ -271,3 +281,4 @@ textarea {
   float: right;
   width: 48%;
 }
+
