@@ -35,6 +35,7 @@ sans-serif;
   margin: 0 20px 0 20px;
 } 
 
+/*register forms*/
 
 .register-form__title {
   color: #ffffff;
@@ -60,7 +61,7 @@ sans-serif;
   margin-bottom: 10px;
   border: 1px solid grey;
   color: #afafaf;
-  font-size: 24px;
+  font-size: 23px;
   border-radius: 3px;
 
 }
@@ -73,7 +74,7 @@ sans-serif;
   width: 80%;
   background-color: #f4f4f4;
   border: none;
-  font-size:24px;
+  font-size:23px;
   text-transform: capitalize;
   border-left: 1px solid grey;
   padding-left:10px ;
