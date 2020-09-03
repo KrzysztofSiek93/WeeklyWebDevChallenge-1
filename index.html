@@ -20,21 +20,21 @@
             <div class="forms">
                 <!--form register-->
                 <div class="forms__register">
-                    <div class="register-form__title">register form</div>
+                    <h1 class="register-form__title">register form</h1>
                         <form action="#" class="register-form">
-                            <div class="register-form__username">
+                            <div class="register-form__username input-form">
                                  <i class="fas fa-user"></i><input type="text" placeholder="username">
                             </div>     
-                            <div class="register-form__password">
+                            <div class="register-form__password input-form">
                                 <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
                             </div>
-                            <div class="register-form__confirm-password">
+                            <div class="register-form__confirm-password input-form">
                                 <i class="fas fa-lock"></i><input type="password" placeholder="confirm password">
                             </div>
-                            <div class="register-form__email">
+                            <div class="register-form__email input-form">
                                  <i class="fas fa-envelope"></i><input type="email" placeholder="email">
                             </div>
-                            <div class="register-form__location">
+                            <div class="register-form__location input-form">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <select name="" id="">
                                 <option value="option1">your location</option>
@@ -45,82 +45,89 @@
                                 </select>
                             </div>
                             <div class="register-form__accept-terms">
-                                <div class="check"><input type="checkbox" id="terms">
-                                    <label for="terms" class="text">
-                                        <span class="checkmark"> i have read and accept theterms of use.</span>
+                                    <label class="register-form__lebel lebel-form">
+                                        <input type="checkbox">
+                                        <p>I have read and accpet the terms of use</p>
+                                        <span class="checkmark"></span>
                                     </label>
-                                </div>
                             </div>
-                            <button class="register-form__submit-button" type="submit"> sign up </button>
+                            <button class="register-form__submit-button button" type="submit"> Sign up </button>
                         </form> 
                     </div>
                
                 <!--form send email-->
                 <div class="forms__email">
-                    <div class="email-form__title">send email</div>
-                    <form action="#" class="register-form">
-                    <div class="email-form__username">
-                        <i class="fas fa-user"></i><input type="text" placeholder="your name">
-                   </div>
-                   <div class="register-form__email">
-                        <i class="fas fa-envelope"></i><input type="email" placeholder="your email">
-                   </div>    
-                   <div class="email-form__message">
-                      <textarea class="send-email-form__message" placeholder="Type your message"></textarea>
-                   </div> 
-                   <div class="email-form__accept-terms">
-                    <div class="check"><input type="checkbox" id="terms">
-                        <label for="terms" class="text">
-                            <span class="checkmark">send a copy to my email</span>
-                        </label>
-                    </div>
-                </div>
-                <button class="register-form__submit-button" type="submit"> send email </button>
-                </form>
+                    <h1 class="email-form__title">send email</h1>
+                    <form action="#" class="email-form-form">
+                        <div class="email-form__username input-form">
+                             <i class="fas fa-user"></i><input type="text" placeholder="Your Name">
+                        </div>     
+                        <div class="email-form__email input-form">
+                             <i class="fas fa-envelope"></i><input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="email-form__email input-textarea">
+                            <textarea name="message" id="message" maxlength="400" rows="9"></textarea>
+                        </div>
+                        <div class="email-form__accept-terms">
+                                <label class="email-form__lebel lebel-form">
+                                    <input type="checkbox">
+                                    <p>Send a copy to my Email</p>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </div>
+                        <button class="email-form__submit-button button" type="submit"> Sign up </button>
+                    </form> 
                 </div>
                 <!--singin in form-->
                 <div class="forms__sign">
-                    <div class="sign-form__title">sign in form</div>
+                    <h1 class="sign-form__title">sign in form</h1>
                     <form action="#" class="sign-form">
-                        <div class="sign-form__username">
+                        <div class="sign-form__username input-form">
                             <i class="fas fa-user"></i><input type="text" placeholder="username">
                        </div>     
-                       <div class="sign-form__password">
+                       <div class="sign-form__password input-form">
                            <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
                        </div> 
-                       <div class="sign-form__check"><input type="checkbox" id="terms">
-                        <label for="terms" class="text">
-                            <span class="checkmark">remember me</span>
+                       <div class="sign-form__accept-terms">
+                        <label class="sign-form__lebel lebel-form">
+                            <input type="checkbox">
+                            <span class="checkmark"></span><p>Remember me.</p>
+                            <button class="sign-form__submit-button " type="submit"> Sign up </button>
                         </label>
-                    </div>
-                </form>
-                <button class="register-form__submit-button" type="submit"> sign in</button>   
                 </div>
+                
+               </form>
+            </div>
                
                
                 <!--Recover form-->  
                 <div class="forms__revocer">
-                    <div class="recover-form__title">recover form</div>
+                    <h1 class="recover-form__title">recover form</h1>
                     <form action="#" class="recover-form">
-                        <div class="recover-form__email">
+                        <div class="recover-form__email input-form">
                             <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
                        </div>   
-                       <div class="recover-form__phone">
+                       <div class="recover-form__phone input-form">
                             <i class="fas fa-mobile-alt"></i><input type="tel" placeholder="enter your phone number">
                        </div>  
-                       <button class="recover-form__submit-button" type="submit">send</button> 
-                       <button class="recover-form__submit-button no-active-button" type="submit">done</button> 
+                       <div>
+                        <button class="recover-form__submit-button" type="submit">Send</button> 
+                        <button class="recover-form__submit-button no-active-button" type="submit">Done</button> 
+                       </div>
+                       
                     </form>
                 </div>   
                 <!--Subscibe Form-->   
                 <div class="forms__subscribe">
-                    <div class="subscribe-form__title">subscribe form</div>
+                    <h1 class="subscribe-form__title">subscribe form</h1>
                     <form action="#" class="subscribe-form">
-                        <div class="subscribe-form__email">
+                        <div class="subscribe-form__email input-form">
                             <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
                        </div>   
-                       <button class="subscribe-form__submit-button" type="submit">subscribe</button> 
-                       <button class="subscribe-form__submit-button no-subscribe" type="submit">no, thanks</button> 
+                       <div>
+                        <button class="subscribe-form__submit-button " type="submit">Send</button> 
+                        <button class="subscribe-form__submit-button  red-button" type="submit">Done</button> 
+                       </div>
                     </form>
                 </div>   
             </div>     
