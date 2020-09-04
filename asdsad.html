@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly WebDev Challenge-1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4e9e747863.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+            <div class="logo logo__header">
+                <img class="logo logo__header--first" src="img/logo_pictures.png" alt="logo pictures"> 
+                <img class="logo logo__header--second" src="img/logo_big_www.png" alt="logo big www adres">
+            </div>
+            <div class="forms">
+                <!--form register-->
+                <div class="forms__register">
+                    <h2 class="form__title register-form__title">register form</h2>
+                        <form action="#" class="form-basic register-form">
+                            <div class="form__input register-form__username">
+                                 <i class="fas fa-user"></i><input type="text" placeholder="username">
+                            </div>     
+                            <div class="form__input register-form__password">
+                                <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
+                            </div>
+                            <div class="form__input register-form__confirm-password">
+                                <i class="fas fa-lock"></i><input type="password" placeholder="confirm password">
+                            </div>
+                            <div class="form__input register-form__email">
+                                 <i class="fas fa-envelope"></i><input type="email" placeholder="email">
+                            </div>
+                            <div class="form__input register-form__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <select name="" id="">
+                                <option value="option1">your location</option>
+                                <option value="option2">usa</option>
+                                <option value="option3">uk</option>
+                                <option value="option4">germany</option>
+                                <option value="option5">ireland</option>
+                                </select>
+                            </div>
+                            <div class="form__tikcs register-form__accept-terms">
+                                    <label class="form__lebel register-form__lebel">
+                                        <input type="checkbox">
+                                        <p class="form__text">I have read and accpet the terms of use</p>
+                                        <span class="checkmark"></span>
+                                    </label>
+                            </div>
+                            <button class="form__button register-form__button" type="submit"> Sign up </button>
+                        </form> 
+                </div>
+                <!--form send email-->
+                <div class="forms__email">
+                    <h2 class="form__title email-form__title">send email</h2>
+                    <form action="#" class="form-basic email-form-form">
+                        <div class="form__input email-form__username">
+                             <i class="fas fa-user"></i><input type="text" placeholder="Your Name">
+                        </div>     
+                        <div class="form__input email-form__email">
+                             <i class="fas fa-envelope"></i><input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form__textarea email-form__email">
+                            <textarea name="message" id="message" maxlength="400" rows="9"></textarea>
+                        </div>
+                        <div class="form__tikcs email-form__accept-terms">
+                                <label class="form__lebel email-form__lebel">
+                                    <input type="checkbox">
+                                    <p class="form__text">Send a copy to my Email</p>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </div>
+                        <button class="form__button email-form__button" type="submit"> Sign up </button>
+                    </form> 
+                </div>
+                <!--singin in form-->
+                <div class="forms__sign">
+                    <h2 class="form__title sign-form__title">sign in form</h2>
+                    <form action="#" class="form-basic sign-form">
+                        <div class="form__input sign-form__username">
+                            <i class="fas fa-user"></i><input type="text" placeholder="username">
+                       </div>     
+                       <div class="form__input sign-form__password">
+                           <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
+                       </div> 
+                       <div class="form__tikcs sign-form__accept-terms">
+                        <label class="form__lebel sign-form__lebel lebel-form">
+                            <input type="checkbox">
+                            <span class="checkmark"></span><p class="form__text">Remember me.</p>
+                            <button class="form__button sign-form__button " type="submit"> Sign up </button>
+                        </label>
+                </div>
+                
+               </form>
+                </div>
+                <!--Recover form-->  
+                <div class="forms__revocer">
+                    <h2 class="form__title recover-form__title">recover form</h2>
+                    <form action="#" class="form-basic recover-form">
+                        <div class="form__input recover-form__email">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
+                       </div>   
+                       <div class="form__input recover-form__phone">
+                            <i class="fas fa-mobile-alt"></i><input type="tel" placeholder="enter your phone number">
+                       </div>  
+                       <div>
+                        <button class="form__button recover-form__submit-button" type="submit">Send</button> 
+                        <button class="form__button recover-form__submit-button button--no-active" type="submit">Done</button> 
+                       </div>
+                       
+                    </form>
+                </div>   
+                <!--Subscibe Form-->   
+                <div class="forms__subscribe">
+                    <h2 class="form__title subscribe-form__title">subscribe form</h2>
+                    <form action="#" class="form-basic subscribe-form">
+                        <div class="form__input subscribe-form__email">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
+                       </div>   
+                       <div>
+                        <button class="form__button subscribe-form__submit-button " type="submit">Subscribe</button> 
+                        <button class="form__button subscribe-form__submit-button  button--red" type="submit">No,Thanks</button> 
+                       </div>
+                    </form>
+                </div>   
+                <div class="logo logo__footer">
+                    <img class="logo logo__footer" src="img/logo_pictures.png" alt="logo pictures">
+                    <img class="logo logo__footer logo_footer--small" src="img/logo_small_www.png" alt="logo small www adres">
+                </div>
+            </div>     
+    </div>
+</body>
+</html>

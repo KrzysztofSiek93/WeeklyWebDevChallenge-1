@@ -9,136 +9,117 @@
     <script src="https://kit.fontawesome.com/4e9e747863.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="content">
-    <div class="wrap">
-        <header>
+    <div class="container">
+
             <div class="logo">
-                <img class="logo-first" src="img/logo_pictures.png" alt="logo pictures"> 
-                <img class="logo-second" src="img/logo_big_www.png" alt="logo big www adres">
+                <img class="logo--header" src="img/logo.png" alt="logo pictures"> 
             </div>
-        </header>
-            <div class="forms">
-                <!--form register-->
-                <div class="forms__register">
-                    <h1 class="register-form__title">register form</h1>
-                        <form action="#" class="register-form">
-                            <div class="register-form__username input-form">
-                                 <i class="fas fa-user"></i><input type="text" placeholder="username">
-                            </div>     
-                            <div class="register-form__password input-form">
-                                <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
-                            </div>
-                            <div class="register-form__confirm-password input-form">
-                                <i class="fas fa-lock"></i><input type="password" placeholder="confirm password">
-                            </div>
-                            <div class="register-form__email input-form">
-                                 <i class="fas fa-envelope"></i><input type="email" placeholder="email">
-                            </div>
-                            <div class="register-form__location input-form">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <select name="" id="">
-                                <option value="option1">your location</option>
-                                <option value="option2">usa</option>
-                                <option value="option3">uk</option>
-                                <option value="option4">germany</option>
-                                <option value="option5">ireland</option>
-                                </select>
-                            </div>
-                            <div class="register-form__accept-terms">
-                                    <label class="register-form__lebel lebel-form">
-                                        <input type="checkbox">
-                                        <p>I have read and accpet the terms of use</p>
-                                        <span class="checkmark"></span>
-                                    </label>
-                            </div>
-                            <button class="register-form__submit-button button" type="submit"> Sign up </button>
-                        </form> 
-                    </div>
-               
-                <!--form send email-->
-                <div class="forms__email">
-                    <h1 class="email-form__title">send email</h1>
-                    <form action="#" class="email-form-form">
-                        <div class="email-form__username input-form">
-                             <i class="fas fa-user"></i><input type="text" placeholder="Your Name">
-                        </div>     
-                        <div class="email-form__email input-form">
-                             <i class="fas fa-envelope"></i><input type="email" placeholder="Your Email">
-                        </div>
-                        <div class="email-form__email input-textarea">
-                            <textarea name="message" id="message" maxlength="400" rows="9"></textarea>
-                        </div>
-                        <div class="email-form__accept-terms">
-                                <label class="email-form__lebel lebel-form">
-                                    <input type="checkbox">
-                                    <p>Send a copy to my Email</p>
-                                    <span class="checkmark"></span>
-                                </label>
-                        </div>
-                        <button class="email-form__submit-button button" type="submit"> Sign up </button>
-                    </form> 
-                </div>
-                <!--singin in form-->
-                <div class="forms__sign">
-                    <h1 class="sign-form__title">sign in form</h1>
-                    <form action="#" class="sign-form">
-                        <div class="sign-form__username input-form">
-                            <i class="fas fa-user"></i><input type="text" placeholder="username">
-                       </div>     
-                       <div class="sign-form__password input-form">
-                           <i class="fas fa-lock"></i><input type="password" placeholder="password"> 
-                       </div> 
-                       <div class="sign-form__accept-terms">
-                        <label class="sign-form__lebel lebel-form">
-                            <input type="checkbox">
-                            <span class="checkmark"></span><p>Remember me.</p>
-                            <button class="sign-form__submit-button " type="submit"> Sign up </button>
-                        </label>
-                </div>
-                
-               </form>
+    <div class="forms forms__register">
+        <h2 class="form__title register-form__title">Register Form</h2>
+        <form class="form">
+            <div class="form__input register-form__username">
+                <i class="fas fa-user icon"></i><input class="input-field" type="text" placeholder="your name">
             </div>
-               
-               
-                <!--Recover form-->  
-                <div class="forms__revocer">
-                    <h1 class="recover-form__title">recover form</h1>
-                    <form action="#" class="recover-form">
-                        <div class="recover-form__email input-form">
-                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
-                       </div>   
-                       <div class="recover-form__phone input-form">
-                            <i class="fas fa-mobile-alt"></i><input type="tel" placeholder="enter your phone number">
-                       </div>  
-                       <div>
-                        <button class="recover-form__submit-button" type="submit">Send</button> 
-                        <button class="recover-form__submit-button no-active-button" type="submit">Done</button> 
-                       </div>
-                       
-                    </form>
-                </div>   
-                <!--Subscibe Form-->   
-                <div class="forms__subscribe">
-                    <h1 class="subscribe-form__title">subscribe form</h1>
-                    <form action="#" class="subscribe-form">
-                        <div class="subscribe-form__email input-form">
-                            <i class="fas fa-envelope"></i><input type="email" placeholder="enter your email">
-                       </div>   
-                       <div>
-                        <button class="subscribe-form__submit-button " type="submit">Subscribe</button> 
-                        <button class="subscribe-form__submit-button  red-button" type="submit">No,Thanks</button> 
-                       </div>
-                    </form>
-                </div>   
-            </div>     
-        <footer>
-            <div class="logo">
-                <img src="img/logo_pictures.png" alt="logo pictures">
-                <img class="logo-small" src="img/logo_small_www.png" alt="logo small www adres">
+            <div class="form__input register-form__email">
+                <i class="fas fa-envelope icon"></i><input class="input-field"  type="email" placeholder="your email">
             </div>
-        </footer>
+            <div class="form__input register-form__confirm-pasword">
+                <i class="fas fa-lock icon"></i><input class="input-field"  type="password" placeholder="confirm password">
+            </div>
+            <div class="form__input register-form__email">
+                <i class="fas fa-envelope icon"></i><input class="input-field"  type="email" placeholder="email">
+            </div>
+            <div class="form__select register-form__location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                <select class="input-field" name="cars" id="cars">
+                <option value="volvo">You Location</option>
+                <option value="saab">Usa</option>
+                <option value="opel">Polska</option>
+                <option value="audi">Seat</option>
+            </select>
+            </div>
+              <label class="checbox__form register-form__checbox">
+              <input type="checkbox">I have read and accept the terms of use
+              <span class="checkmark"></span>
+              </label>
+                <button class="form__button register-form__button" type="submit" class="btn">Register</button>
+        </form>
+    </div>    
+   
+    <div class="forms forms__email">
+        <h2 class="form__title register-form__title">Send Email</h2>
+        <form class="form">
+            <div class="form__input email-form__username">
+                <i class="fas fa-user icon"></i><input class="input-field" type="text" placeholder="your name">
+            </div>
+            <div class="form__input email-form__email">
+                <i class="fas fa-envelope icon"></i><input class="input-field"  type="email" placeholder="your email">
+            </div>
+            <div class="form__textarea email-form__email">
+                <textarea name="message" id="message" maxlength="800" rows="7">Type your message</textarea>
+            </div>
+            <label class="checbox__form email-form__checbox">
+                <input type="checkbox">Send a copy to my Email
+                <span class="checkmark"></span>
+                </label>
+                  <button class="form__button email-form__button" type="submit" class="btn">Register</button>
+        </form>
     </div>
+
+
+    <div class="forms forms__sign">
+        <h2 class="form__title sign-form__title">Send Email</h2>
+        <form class="form">
+            <div class="form__input sign-form__username">
+                <i class="fas fa-user icon"></i><input class="input-field" type="text" placeholder="your name">
+            </div>
+            <div class="form__input sign-form__email">
+                <i class="fas fa-lock icon"></i><input class="input-field"  type="email" placeholder="password">
+            </div>
+            <div class="checbox__remember"></div>
+            <label class="checbox__form sign-form__checbox">
+                <input type="checkbox">Remember me
+                <span class="checkmark"></span>
+                <button class="form__button sign-form__button" type="submit" class="btn">Sign in</button>
+      
+            </label>
+        </form>
+        </div>
+       
+    <div class="forms forms__recover">
+        <h2 class="form__title recover-form__title">Recover Form</h2>
+        <form class="form">
+            <div class="form__input recover-form__username">
+                <i class="fas fa-envelope icon"></i><input class="input-field" type="text" placeholder="Enter your email">
+            </div>
+            <div class="form__input recover-form__email">
+                <i class="fas fa-mobile-alt icon"></i><input class="input-field"  type="email" placeholder="enter your phone number">
+            </div>
+            <div class="form__button-inline">
+            <button class="form__button recover-form__button" type="submit" class="btn">Send</button>
+            <button class="form__button recover-form__button form__button--notwork" type="submit" class="btn">Done</button>
+        </div>
+        </form>
+    </div>
+
+    <div class="forms forms__subscribe">
+        <h2 class="form__title subscribe-form__title">Recover Form</h2>
+        <form class="form">
+            <div class="form__input subscibe-form__email">
+                <i class="fas fa-envelope icon"></i><input class="input-field"  type="email" placeholder="enter your email">
+            </div>
+            <div class="form__button-inline">
+            <button class="form__button subscribe-form__button" type="submit" class="btn">Subscribe</button>
+            <button class="form__button subscribe-form__button form__button--red" type="submit" class="btn">No, Thanks</button>
+        </div>
+        </form>
+    </div>
+
+    <div class=" forms logo__footer">
+        <img class="logo logo--footer" src="img/logo.png" alt="logo pictures">
+        <img class="logo logo--footer" src="img/logo_small_www.png" alt="logo small www adres">
     </div>
 </div>
+
 </body>
 </html>

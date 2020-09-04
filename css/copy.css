@@ -1,0 +1,286 @@
+/*font-family: 'Titillium Web', 
+sans-serif;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.wrap {
+    background-image: url('../img/background_img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1280px;
+    text-align: center;
+ } 
+
+
+
+ .logo img{
+    margin: 25px 10px 25px 10px;
+    opacity: 0.6;
+    width: 25%;
+ }
+
+ .logo .logo-second {
+    width: 60%;
+ } 
+
+.forms{
+  margin: 0 20px 0 20px;
+  max-width:460px;
+} 
+
+
+h1 {
+  color: #ffffff;
+  font-family: "Titillium Text 22 L";
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Titillium Web';
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+} 
+
+form {
+  margin-bottom:30px ;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.3);   
+}
+
+.input-form{
+  margin-bottom: 10px;
+  border: 1px solid #afafaf;
+  color: #afafaf;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.input-form i {
+  padding: 10px 15px 10px 15px;
+}
+
+.input-form input {
+  width: 80%;
+  background-color: #f4f4f4;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-left: 1px solid #afafaf;
+  padding-left:10px ;
+  font-family: 'Titillium Web';
+  outline-style:none;
+}
+
+
+
+.input-form select {
+  width: 80%;
+  background-color: #f4f4f4;
+  border: none;
+  font-size: 16px;
+  color: #7c7c7c;
+  text-transform: capitalize;
+  border-left: 1px solid #afafaf;
+  padding-left:10px ;
+  font-family: 'Titillium Web';
+  outline-style:none;
+}
+
+.lebel-form {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* Hide the browser's default checkbox */
+.lebel-form input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  border:1px solid  #afafaf;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.lebel-form input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.lebel-form .checkmark:after {
+  text-align: center;
+  left: 4px;
+  bottom: 4px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #88c814;;
+  border-radius: 3px;
+  background-color: #88c814;;
+}
+
+.lebel-form p{
+  font-size:15px;
+  margin-left: -10px;
+  font-family: 'Titillium Web';
+  color: #afafaf;
+}
+
+.button {
+background-color: #93d02b;
+width: 75px;
+height: 23px;
+text-shadow: 1px 1px 0 #51850e;
+color: #ffffff;
+font-family: 'Titillium Web';
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+min-width: 140px;
+height: 48px;
+width: 100%;
+border-radius: 4px;
+border: 1px solid green;
+cursor: pointer;
+outline-style:none;
+}
+
+button:active {
+  vertical-align: top;
+  padding-top: 8px;
+  background-color: mediumseagreen;
+}
+
+textarea {
+  width: 100%;
+  cursor: text;
+  background-color: #f4f4f4;
+  outline-style:none;
+  margin-bottom: 10px;
+  border: 1px solid #afafaf;
+  border-radius:3px;
+  font-size: 16px;
+  resize: none ;
+  padding: 1px;
+  text-indent: 10px;
+  font-family: 'Titillium Web';
+  color: #afafaf;
+}
+
+.email-form__lebel p {
+  margin-left:-80px;
+}
+
+/*sign button*/
+
+.sign-form__lebel .checkmark {
+  margin-top:12px;
+}
+
+.sign-form__lebel p {
+  float:left ;
+  margin-top:12px;
+  width: 55%;
+}
+
+.sign-form__submit-button {
+  background-color: #93d02b;
+  text-shadow: 1px 1px 0 #51850e;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 24px;
+  text-align: center;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid green;
+  cursor: pointer;
+  outline-style:none;
+  width: 45%;
+}
+
+/*recover button */
+.recover-form__submit-button{
+  background-color: #93d02b;
+  text-shadow: 1px 1px 0 #51850e;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 24px;
+  text-align: center;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid green;
+  cursor: pointer;
+  outline-style:none;
+  width: 48%;
+
+}
+
+.no-active-button{
+  background-color: #bcdb97;
+  text-shadow: 1px 1px 0 #51850e;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 24px;
+  text-align: center;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid green;
+  cursor: pointer;
+  outline-style:none;
+  width: 48%;
+  float: right;
+}
+
+.subscribe-form__submit-button{
+  background-color: #93d02b;
+  text-shadow: 1px 1px 0 #51850e;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 24px;
+  text-align: center;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid green;
+  cursor: pointer;
+  outline-style:none;
+  width: 48%;
+}
+
+.red-button{
+  background-color: #f4495b;
+  float: right;
+  width: 48%;
+}
+
